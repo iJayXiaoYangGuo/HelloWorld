@@ -15,6 +15,7 @@
 		645060711E5E79E300E0D075 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6450606F1E5E79E300E0D075 /* LaunchScreen.storyboard */; };
 		6450607C1E5E79E400E0D075 /* HelloWorldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6450607B1E5E79E400E0D075 /* HelloWorldTests.m */; };
 		645060871E5E79E400E0D075 /* HelloWorldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 645060861E5E79E400E0D075 /* HelloWorldUITests.m */; };
+		645060951E5E7A0900E0D075 /* 大话西游.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 645060941E5E7A0900E0D075 /* 大话西游.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		645060821E5E79E400E0D075 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		645060861E5E79E400E0D075 /* HelloWorldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldUITests.m; sourceTree = "<group>"; };
 		645060881E5E79E400E0D075 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		645060941E5E7A0900E0D075 /* 大话西游.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "大话西游.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		645060551E5E79E300E0D075 = {
 			isa = PBXGroup;
 			children = (
+				645060941E5E7A0900E0D075 /* 大话西游.jpg */,
 				645060601E5E79E300E0D075 /* HelloWorld */,
 				6450607A1E5E79E400E0D075 /* HelloWorldTests */,
 				645060851E5E79E400E0D075 /* HelloWorldUITests */,
@@ -248,6 +251,7 @@
 			files = (
 				645060711E5E79E300E0D075 /* LaunchScreen.storyboard in Resources */,
 				6450606E1E5E79E300E0D075 /* Assets.xcassets in Resources */,
+				645060951E5E7A0900E0D075 /* 大话西游.jpg in Resources */,
 				6450606C1E5E79E300E0D075 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -425,9 +429,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guo.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -436,9 +442,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guo.HelloWorld;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
